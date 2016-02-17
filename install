@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cp -av "$DIR/csv_to_txt.py" "/usr/local/bin/"
+cp -av "$DIR/Convert CSV to TXT.workflow" ~/Library/Services/
